@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta de Banco</title>
+    <link rel="stylesheet" href="ccs2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- Header -->
+            <div class="header">
+                <h1 class="title">CUENTA</h1>
+                <h1 class="title">DE BANCO</h1>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Bank Account Card -->
+            <div class="bank-card">
+                <!-- Banreservas - Fatima Suriel -->
+                <div class="bank-section-label">Banreservas</div>
+                <div class="bank-item">
+                    <div class="bank-info">
+                        <div class="bank-header">
+                            <div class="logo-container">
+                                <img src="data:image/png;base64,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" alt="Banreservas" class="bank-logo">
+                            </div>
+                            <div class="account-details">
+                                <div class="account-name">Fatima Suriel</div>
+                                <div class="account-row">
+                                    <span class="account-number">9605495075</span>
+                                    <button class="copy-btn" onclick="copyToClipboard('9605495075')" aria-label="Copiar número de cuenta">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p class="footer-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <div class="toast-title">Copiado!</div>
+            <div class="toast-message"></div>
+        </div>
+    </div>
+
+    <script src="JavaT.js"></script>
+</body>
+</html>
